@@ -1,0 +1,9 @@
+numpy==1.19.5
+onnxruntime==1.5.1
+pillow==8.1.0
+typing-extensions==3.7.4.3
+uvicorn==0.13.3
+fastapi==0.63.0
+requests==2.25.1
+pydantic==1.7.3
+gunicorn==19.9.0
