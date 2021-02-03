@@ -7,5 +7,3 @@ fastapi==0.63.0
 requests==2.25.1
 pydantic==1.7.3
 gunicorn==19.9.0
-uvloop
-httptools
