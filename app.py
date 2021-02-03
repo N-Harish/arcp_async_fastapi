@@ -17,7 +17,7 @@ async def get_data(image_path: str) -> List[int]:
     Returns:
         data (list): list of image pixel of size (1, 224, 224, 3)
     """
-    img = Image.open(BytesIO(base64.b64decode(image_path)))
+    img = Image.open(BytesIO(base64.b64decode(image_path))).convert('RGB')
     # img = Image.frombytes("RGB", (224, 224))
     # img = Image.open(image_path)
     img = img.resize((224, 224))
