@@ -1,12 +1,13 @@
 import base64
 from io import BytesIO
-from typing import List
 import numpy as np
-import onnxruntime
 import uvicorn
 from PIL import Image
 from fastapi import FastAPI
 from arcp import ARCP
+
+from typing import List
+import onnxruntime
 
 
 async def get_data(image_path: str) -> List[int]:
