@@ -1,6 +1,6 @@
 numpy==1.19.5
 onnxruntime==1.5.1
-pillow==8.1.0
+pillow==8.1.1
 typing-extensions==3.7.4.3
 uvicorn==0.13.3
 fastapi==0.63.0
